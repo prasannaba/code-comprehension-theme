@@ -26,17 +26,24 @@ every part a consistent visual language so you can inspect it more easily.
 | 🟡 Literals | Amber / Green | What are the actual values? |
 | 🟪 Control | Violet | How does execution flow? |
 
-Ships in four variants: Light, Dark, and colorblind-safe Light and Dark.
-Calm surfaces, vivid roles — important syntax stands out immediately.
+### Variants
 
-How the roles read in practice: definitions are bold while calls use color
-only, so where something is born stands out from where it is used;
-modules arrive underlined and bold; parameters sit in italic; docstrings
-and block comments render brighter than inline notes because intent
-overviews matter most in unfamiliar code. Declarations, readonly values,
-async boundaries, and deprecated code each carry their own signal, and
-agent suggestions appear in muted gray so proposed code never masquerades
-as committed code.
+Four variants ship with the theme: **Light**, **Dark**, and colorblind-safe
+**Light** and **Dark**. Calm surfaces, vivid roles — important syntax stands
+out immediately.
+
+### How the roles read in practice
+
+* **Definitions are bold** while calls use color only, so where something
+  is born stands out from where it is used.
+* **Modules** arrive underlined and bold.
+* **Parameters** sit in italic.
+* **Docstrings and block comments** render brighter than inline notes,
+  because intent overviews matter most in unfamiliar code.
+* **Declarations, readonly values, async boundaries, and deprecated code**
+  each carry their own signal.
+* **Agent suggestions** appear in muted gray, so proposed code never
+  masquerades as committed code.
 
 ## Install
 
