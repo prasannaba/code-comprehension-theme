@@ -28,6 +28,15 @@ while reading.
 Ships in four variants: Light, Dark, and colorblind-safe Light and Dark.
 Calm surfaces, vivid roles — important syntax stands out immediately.
 
+How the roles read in practice: definitions are bold while calls use color
+only, so where something is born stands out from where it is used;
+modules arrive underlined and bold; parameters sit in italic; docstrings
+and block comments render brighter than inline notes because intent
+overviews matter most in unfamiliar code. Declarations, readonly values,
+async boundaries, and deprecated code each carry their own signal, and
+agent suggestions appear in muted gray so proposed code never masquerades
+as committed code.
+
 ## Install
 
 Use **Extensions: Install from VSIX...** and choose the included VSIX, then select
@@ -53,18 +62,9 @@ Exact hues per variant (all syntax colors meet WCAG AA 4.5:1):
 | Literals (amber/green) | `#8A5700` / `#237A3E` | `#F3C969` / `#9BE28C` | constants, strings |
 | Control (violet) | `#5F36B8` | `#B79AFF` | keywords, muted on purpose |
 
-Bold is reserved for definitions (functions, types). Calls use color
-only, so definitions — the beacons — stand out. Block/doc comments
-render brighter than inline comments because intent overviews matter
-most when reviewing agent-generated code.
-
-Semantic modifiers add a second signal layer: `*.declaration` is bold
-(where things are born vs used), `*.readonly` and `*.async` are italic
-(trustworthy constants, execution-order warnings), `*.deprecated` is
-struck through. Agent ghost suggestions render in muted gray so
-proposed code never masquerades as committed code. Outline icons,
-breadcrumbs, terminal ANSI, and merge-conflict colors all follow the
-same six roles, so the whole workbench speaks one language.
+The same six roles carry through outline icons, breadcrumbs, the terminal
+palette, and merge-conflict colors, so the whole workbench speaks one
+language.
 
 ## Recommended settings for comprehension
 
