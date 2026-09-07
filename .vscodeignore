@@ -1,0 +1,4 @@
+*.zip
+*.vsix
+.gitignore
+.git/**
