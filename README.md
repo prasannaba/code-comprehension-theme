@@ -14,7 +14,8 @@ Understanding it is still expensive.
 AI just generated 300 lines of code. How do you know whether it actually
 does what you think it does? Code Comprehension Theme is designed to make
 that understanding faster — every color answers a question your brain asks
-while reading.
+while reading. It won't tell you whether the code is correct; it gives
+every part a consistent visual language so you can inspect it more easily.
 
 | Role | Color | Question it answers |
 | ---- | ----- | ------------------- |
@@ -40,8 +41,13 @@ as committed code.
 ## Install
 
 From the marketplace (`ext install prasannaba.code-comprehension-theme`),
-or via **Extensions: Install from VSIX...** using the
-[latest Release](https://github.com/prasannaba/code-comprehension-theme/releases).
+or from VSIX:
+
+1. Download the latest `.vsix` from
+   [Releases](https://github.com/prasannaba/code-comprehension-theme/releases).
+2. Open VS Code → Extensions view → `...` → **Install from VSIX...**.
+3. Select the downloaded file.
+
 Then select one of the four themes:
 
 * **Code Comprehension Light** / **Dark** — the default palette.
@@ -49,7 +55,21 @@ Then select one of the four themes:
   six roles remapped to colorblind-safe hues (Okabe-Ito based, distinct
   under protanopia, deuteranopia, and tritanopia). Definitions vs calls
   differ by bold as well as hue, so no role depends on red-green
-  discrimination alone. All syntax colors still meet WCAG AA 4.5:1.
+   discrimination alone. All syntax colors still meet WCAG AA 4.5:1.
+
+## Screenshots
+
+### Dark
+
+![Code Comprehension Dark](images/dark.png)
+
+### Light
+
+![Code Comprehension Light](images/light.png)
+
+### Colorblind
+
+![Code Comprehension Colorblind](images/colorblind.png)
 
 ## Palette reference
 
