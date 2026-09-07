@@ -86,6 +86,31 @@ nesting without background washes; inlay hints and CodeLens surface
 types and references so you verify agent code instead of passively
 reading it.
 
+## Research
+
+Design decisions above follow published evidence, not taste:
+
+* Syntax highlighting cuts comprehension time and context switches
+  (eye-tracking, n=10) — Sarkar 2015:
+  <https://ppig.org/files/2015-PPIG-26th-Sarkar1.pdf>
+* Richer visual variety (more hues, more constructs incl. weight) cuts
+  structure-detection time 21–75% with no objective overload (n=33) —
+  Asenov, Hilliges & Müller 2016: <https://doi.org/10.1145/2858036.2858372>
+* Intent labels (+23% comprehension) and block over inline comments
+  motivate first-class comment rendering:
+  <https://arxiv.org/html/2504.19225>,
+  <https://link.springer.com/article/10.1007/s10664-025-10727-w>
+* AI assistants decouple performance from comprehension; active
+  verification loops predict understanding (r=0.96) — hence ghost-text
+  styling and verification-first UI:
+  <https://arxiv.org/html/2511.02922v2>,
+  <https://arxiv.org/html/2501.11264v1>
+* Colorblind-safe hues follow Okabe & Ito:
+  <https://jfly.uni-koeln.de/color/>
+* Font guidance follows JetBrains Mono's design rationale (x-height,
+  disambiguation, bracket alignment):
+  <https://www.jetbrains.com/lp/mono/>
+
 ## Build
 
 ```sh
