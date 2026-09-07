@@ -1,0 +1,2 @@
+# Packaged extension builds live on GitHub Releases, not in history.
+*.vsix

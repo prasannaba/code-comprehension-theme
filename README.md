@@ -2,11 +2,13 @@
 
 An independent, high-signal theme for agentic coding and fast code reading.
 The palette deliberately assigns a visual role to each part of a program:
-imports are cyan, control flow is violet, definitions are orange, calls are
-yellow-orange, types are magenta, data is green, and literals are amber.
+structure and imports are blue (modules underline + bold), control flow is
+violet, definitions are bold orange, calls are orange, types are magenta,
+data is green (parameters italic), constants are amber, and strings are green.
 
 It is intentionally vivid without using a fluorescent background. Calm surfaces
-let important syntax stand out immediately.
+let important syntax stand out immediately. Ships in four variants: Light,
+Dark, and colorblind-safe Light and Dark.
 
 ## Install
 
