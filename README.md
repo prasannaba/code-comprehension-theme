@@ -3,7 +3,7 @@
 A VS Code theme designed for understanding unfamiliar and AI-generated
 code — not just making it look pretty.
 
-🟠 Behavior · 🟣 Types · 🔵 Structure · 🟢 Data · 🟡 Literals · 🟪 Control
+🔵 Structure · 🟠 Behavior · 🟣 Types · 🟢 Data · 🟡 Literals · 🟪 Control
 
 ## Built for the age of AI-generated code
 
@@ -39,8 +39,10 @@ as committed code.
 
 ## Install
 
-Use **Extensions: Install from VSIX...** and choose the included VSIX, then select
-one of the four themes:
+From the marketplace (`ext install prasannaba.code-comprehension-theme`),
+or via **Extensions: Install from VSIX...** using the
+[latest Release](https://github.com/prasannaba/code-comprehension-theme/releases).
+Then select one of the four themes:
 
 * **Code Comprehension Light** / **Dark** — the default palette.
 * **Code Comprehension Light Colorblind** / **Dark Colorblind** — same
