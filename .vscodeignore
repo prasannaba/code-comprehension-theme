@@ -2,3 +2,5 @@
 *.vsix
 .gitignore
 .git/**
+showcase/**
+screenshots/**
