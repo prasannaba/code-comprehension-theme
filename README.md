@@ -1,14 +1,32 @@
 # Code Comprehension Theme
 
-An independent, high-signal theme for agentic coding and fast code reading.
-The palette deliberately assigns a visual role to each part of a program:
-structure and imports are blue (modules underline + bold), control flow is
-violet, definitions are bold orange, calls are orange, types are magenta,
-data is green (parameters italic), constants are amber, and strings are green.
+A VS Code theme designed for understanding unfamiliar and AI-generated
+code — not just making it look pretty.
 
-It is intentionally vivid without using a fluorescent background. Calm surfaces
-let important syntax stand out immediately. Ships in four variants: Light,
-Dark, and colorblind-safe Light and Dark.
+🟠 Behavior · 🟣 Types · 🔵 Structure · 🟢 Data · 🟡 Literals · 🟪 Control
+
+## Built for the age of AI-generated code
+
+AI makes producing code cheap.
+
+Understanding it is still expensive.
+
+AI just generated 300 lines of code. How do you know whether it actually
+does what you think it does? Code Comprehension Theme is designed to make
+that understanding faster — every color answers a question your brain asks
+while reading.
+
+| Role | Color | Question it answers |
+| ---- | ----- | ------------------- |
+| 🔵 Structure | Blue | Where does this come from? |
+| 🟠 Behavior | Orange | What does this do? |
+| 🟣 Types | Magenta | What kind of thing is this? |
+| 🟢 Data | Green | What information is moving? |
+| 🟡 Literals | Amber / Green | What are the actual values? |
+| 🟪 Control | Violet | How does execution flow? |
+
+Ships in four variants: Light, Dark, and colorblind-safe Light and Dark.
+Calm surfaces, vivid roles — important syntax stands out immediately.
 
 ## Install
 
@@ -22,9 +40,9 @@ one of the four themes:
   differ by bold as well as hue, so no role depends on red-green
   discrimination alone. All syntax colors still meet WCAG AA 4.5:1.
 
-## Color roles
+## Palette reference
 
-Six roles, kept distinct so the brain can chunk code at a glance:
+Exact hues per variant (all syntax colors meet WCAG AA 4.5:1):
 
 | Role | Light | Dark | Used for |
 | ---- | ----- | ---- | -------- |
