@@ -76,7 +76,9 @@ Then select one of the four themes:
 
 ### Colorblind
 
-![Code Comprehension Colorblind](images/colorblind.png)
+![Code Comprehension Dark Colorblind](images/colorblind-dark.png)
+
+![Code Comprehension Light Colorblind](images/colorblind-light.png)
 
 ## Palette reference
 
