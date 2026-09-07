@@ -1,2 +1,4 @@
 # Packaged extension builds live on GitHub Releases, not in history.
 *.vsix
+# Local demo assets only; never commit.
+showcase/
