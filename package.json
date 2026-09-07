@@ -4,6 +4,7 @@
   "description": "A high-signal VS Code theme that makes code structure, calls, imports, and important tokens easy to scan.",
   "version": "1.4.0",
   "publisher": "prasannaba",
+  "icon": "images/icon.png",
   "license": "MIT",
   "homepage": "https://github.com/prasannaba/code-comprehension-theme#readme",
   "repository": { "type": "git", "url": "https://github.com/prasannaba/code-comprehension-theme.git" },
