@@ -8,9 +8,6 @@ on:
 jobs:
   publish:
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      id-token: write
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -24,4 +21,7 @@ jobs:
             echo "Tag v$TAG does not match package.json version $PKG"
             exit 1
           fi
-      - run: npx --yes @vscode/vsce@latest publish --oidc
+      # TODO: switch to `vsce publish --oidc` (no secret) once it ships in an
+      # npm release -- today it exists only on vscode-vsce main branch.
+      # Needs a VSCE_PAT secret (Marketplace > Manage) until then.
+      - run: npx --yes @vscode/vsce@latest publish -p "${{ secrets.VSCE_PAT }}"

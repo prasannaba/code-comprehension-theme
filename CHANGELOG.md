@@ -1,6 +1,6 @@
 # Changelog
 
-## 1.5.3
+## 1.5.1 – 1.5.3
 
 * Publisher brand icon, marketplace install docs, research links.
 * Screenshots wired into README; rebranded docs around the
