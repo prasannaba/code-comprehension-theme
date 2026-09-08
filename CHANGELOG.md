@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.5.3
+
+* Publisher brand icon, marketplace install docs, research links.
+* Screenshots wired into README; rebranded docs around the
+  AI-comprehension story.
+* OIDC trusted publishing (no PAT required).
+
 ## 1.4.0
 
 * Semantic modifiers: `*.declaration` bold, `*.readonly` / `*.async` italic,
