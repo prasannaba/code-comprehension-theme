@@ -1,4 +1,4 @@
-# Code Comprehension
+# AI Code Comprehension
 
 A VS Code theme designed for understanding unfamiliar and AI-generated
 code — not just making it look pretty.
