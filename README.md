@@ -47,7 +47,8 @@ out immediately.
 
 ## Install
 
-From the marketplace (`ext install prasannaba.code-comprehension-theme`),
+From the [marketplace](https://marketplace.visualstudio.com/items?itemName=prasannaba.code-comprehension-theme)
+(`ext install prasannaba.code-comprehension-theme`),
 or from VSIX:
 
 1. Download the latest `.vsix` from
