@@ -1,6 +1,6 @@
 {
-  "name": "code-comprehension-theme",
-  "displayName": "Code Comprehension Theme",
+  "name": "code-comprehension",
+  "displayName": "Code Comprehension",
   "description": "A high-signal VS Code theme that makes code structure, calls, imports, and important tokens easy to scan.",
   "version": "1.5.4",
   "publisher": "prasannaba",

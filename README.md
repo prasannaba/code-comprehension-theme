@@ -1,4 +1,4 @@
-# Code Comprehension Theme
+# Code Comprehension
 
 A VS Code theme designed for understanding unfamiliar and AI-generated
 code — not just making it look pretty.
@@ -47,8 +47,8 @@ out immediately.
 
 ## Install
 
-From the [marketplace](https://marketplace.visualstudio.com/items?itemName=prasannaba.code-comprehension-theme)
-(`ext install prasannaba.code-comprehension-theme`),
+From the [marketplace](https://marketplace.visualstudio.com/items?itemName=prasannaba.code-comprehension)
+(`ext install prasannaba.code-comprehension`),
 or from VSIX:
 
 1. Download the latest `.vsix` from
