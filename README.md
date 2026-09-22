@@ -108,7 +108,7 @@ bracket guides, verification aids for AI-generated code):
 {
   "editor.fontFamily": "JetBrains Mono, IBM Plex Mono, Lucida Console, Consolas, monospace",
   "editor.fontSize": 14,
-  "editor.lineHeight": 22,
+  "editor.lineHeight": 1.6,
   "editor.letterSpacing": 0.2,
   "editor.fontLigatures": false,
   "editor.guides.bracketPairs": true,
@@ -127,10 +127,10 @@ Why: JetBrains Mono (primary) is tuned for code at 13–14px — tall
 x-height, distinct `l/I/1 O/0`, aligned brackets; below 12 or above 16
 it loses its edge, so keep 14. IBM Plex Mono is the warmer backup,
 Lucida Console the zero-install Windows fallback
-(no true italic, so the 22px line height plus 0.2 letter spacing keeps
+(no true italic, so the 1.6 line height multiplier plus 0.2 letter spacing keeps
 synthesized obliques and dense agent-generated lines readable).
 Ligatures stay off so `!=`, `>=` never mislead during verification;
-22px line height on 14px type keeps horizontal eye tracking
+1.6 line height on 14px type keeps horizontal eye tracking
 comfortable; bracket colorization + sticky scroll expose
 nesting without background washes; inlay hints and CodeLens surface
 types and references so you verify agent code instead of passively
